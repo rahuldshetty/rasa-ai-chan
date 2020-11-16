@@ -9,6 +9,4 @@ USER 1001
 
 WORKDIR /app
 
-RUN rasa train
-
 ENTRYPOINT ["/app/server.sh"]

@@ -3,7 +3,7 @@
 rasa train
 
 if [ -z "$PORT"]
-then
+then  
   PORT=5005
 fi
 
