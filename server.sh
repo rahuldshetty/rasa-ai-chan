@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rasa train
+
 if [ -z "$PORT"]
 then
   PORT=5005
