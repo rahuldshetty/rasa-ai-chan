@@ -11,4 +11,4 @@ WORKDIR /app
 
 RUN rasa train
 
-ENTRYPOINT ["server.sh"]
+ENTRYPOINT ["/app/server.sh"]
